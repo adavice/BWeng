@@ -1,111 +1,262 @@
+```html
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cancel Membership</title>
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" type="text/css" href="./css/styles.css">
-  <link href="./css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-  <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
-  
+  <title>Cancel Membership</title>
+
+  <link
+    rel="shortcut icon"
+    href="./favicon.ico"
+    type="image/x-icon"
+  >
+<link href="./css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+  <link
+    rel="stylesheet"
+    href="./css/styles.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+  >
 </head>
+
 <body class="main">
 
-<header class="violet_gr">
-  <div class="wrapper">
-    <a href="/index.html">
-      <img class="header_logo" src="/images/brainywin_logo_small.png">
-    </a>
+  <header class="violet_gr">
+    <div class="wrapper">
 
-    <a href="./profile.html" id="login_icon">
-      <i class="fas fa-user"></i>
-    </a>  
-    <div class="float-right-block"> 
-      <span id="credit_counter"> --- </span>
+      <a href="./index.html" aria-label="Home">
+        <img
+          class="header_logo"
+          src="./images/brainywin_logo_small.png"
+          alt="BrainyWin"
+        >
+      </a>
+
+      <a
+        href="./profile.html"
+        id="login_icon"
+        aria-label="Profile"
+      >
+        <i class="fas fa-user"></i>
+      </a>
+
+      <div class="float-right-block">
+        <span id="credit_counter">---</span>
+      </div>
+
     </div>
-  </div>
-</header>
-<section class="main_bg orange_gr">
+  </header>
 
-  <div class="wrapper terms">
-<img class="left_img mobile_hide" src="./images/iphone.png">
-<img class="right_img mobile_hide" src="./images/notebook.png">
-  <h2 class="">Automatic Membership Cancellation </h2>
-  <span>
-    Cancel your subscription using our online cancellation service.<br />
-        Please use the form below or send SMS with text STOP to the short number (from which you receive SMS
-        with content). After sending STOP, you will receive a free of charge notification that your subscription
-        has been stopped.</span>
-<span>
-<br>
-If you still have any questions, please contact us:
-<span style="color: var(--bright)">support@wowcontents.com</span>.<br/>
-        One of our agents will get back to you as soon as possible – this usually takes 24 hours (except on
-        weekends and public holidays).<br/>
-        Our support center operates Mondays through Fridays, between 7 am and 4 pm GMT timezone.
-<h3 style="margin: 10px auto 30px; font-size:16px;">To cancel your subscription please:</h3>
-<div class="col-md-12 contact-right-ltpwr framed" style="max-width: 720px; margin: auto; float: none">
-        <p class="form_descr" style="color: var(--bright); text-align: center">Enter your mobile number, which serves as your username, and your email*.</p>
-        <p class="form_descr" style="font-size: 11px;">*We request your email address to verify your subscription and confirm subscription cancellation.</p>
-        <form id="home-option1-form" role="form">
-          <div class="row">
+  <main>
+    <section class="main_bg orange_gr">
+      <div class="wrapper terms">
+
+        <img
+          class="left_img mobile_hide"
+          src="./images/iphone.png"
+          alt=""
+        >
+
+        <img
+          class="right_img mobile_hide"
+          src="./images/notebook.png"
+          alt=""
+        >
+
+        <h2>Automatic Membership Cancellation</h2>
+
+        <p>
+          Cancel your subscription using our online cancellation service.
+          <br>
+          Please use the form below or send an SMS with the text
+          <strong>STOP</strong> to the short number from which you receive
+          subscription messages.
+        </p>
+
+        <p>
+          After sending <strong>STOP</strong>, you will receive a free
+          notification confirming that your subscription has been stopped.
+        </p>
+
+        <p>
+          If you still have any questions, please contact us:
+          <a
+            href="mailto:support@wowcontents.com"
+            style="color: var(--bright);"
+          >
+            support@wowcontents.com
+          </a>.
+        </p>
+
+        <p>
+          One of our agents will get back to you as soon as possible.
+          This usually takes up to 24 hours, except on weekends and public
+          holidays.
+        </p>
+
+        <p>
+          Our support center operates Monday through Friday,
+          between 7:00 AM and 4:00 PM GMT.
+        </p>
+
+        <h3
+          style="
+            margin: 10px auto 30px;
+            font-size: 16px;
+          "
+        >
+          To cancel your subscription, please:
+        </h3>
+
+        <div
+          class="col-md-12 contact-right-ltpwr framed"
+          style="
+            max-width: 720px;
+            margin: auto;
+            float: none;
+          "
+        >
+
+          <p
+            class="form_descr"
+            style="
+              color: var(--bright);
+              text-align: center;
+            "
+          >
+            Enter your mobile number, which serves as your username,
+            and your email address.
+          </p>
+
+          <p
+            class="form_descr"
+            style="font-size: 11px;"
+          >
+            We request your email address to verify your subscription
+            and confirm its cancellation.
+          </p>
+
+          <form id="home-option1-form">
             <div class="row">
+
               <div class="form-group col-sm-4">
-                <label for="home-option1-phone-input">Mobile number</label>
-                <div>
-                  <input type="tel" class="form-control required input form-input"
-                    name="home-option1-phone-input" id="home-option1-phone-input"
-                    placeholder="Mobile number" required="">
-                </div>
+                <label for="home-option1-phone-input">
+                  Mobile number
+                </label>
+
+                <input
+                  type="tel"
+                  class="form-control required input form-input"
+                  name="home-option1-phone-input"
+                  id="home-option1-phone-input"
+                  placeholder="Mobile number"
+                  autocomplete="tel"
+                  required
+                >
               </div>
 
               <div class="form-group col-sm-4">
-                <label for="home-option1-email-input">Email</label>
-                <div>
-                  <input type="email" class="form-control required input form-input"
-                    name="home-option1-email-input" id="home-option1-email-input"
-                    placeholder="Email" required="">
-                </div>
+                <label for="home-option1-email-input">
+                  Email
+                </label>
+
+                <input
+                  type="email"
+                  class="form-control required input form-input"
+                  name="home-option1-email-input"
+                  id="home-option1-email-input"
+                  placeholder="Email"
+                  autocomplete="email"
+                  required
+                >
               </div>
 
               <div class="form-group col-sm-4">
-                <div class=" form-group-submit-btn">
-                  <button id="home-option1-submit-btn" type="submit" class="btn btn-primary button">
+                <div class="form-group-submit-btn">
+                  <button
+                    id="home-option1-submit-btn"
+                    type="submit"
+                    class="btn btn-primary button"
+                  >
                     Cancel subscription
                   </button>
                 </div>
               </div>
 
-
             </div>
-          </div>
-        </form>
+          </form>
+
+        </div>
       </div>
+    </section>
+  </main>
+
+  <footer class="violet_gr">
+
+    <img
+      class="left_img desk_hide mobile_hide"
+      src="./images/iphone.png"
+      alt=""
+    >
+
+    <div class="wrapper">
+
+      <a
+        href="./rankings.html"
+        class="Rankings_link"
+      >
+        <i class="fas fa-crown"></i>
+        Rankings
+      </a>
+
+      <img
+        class="bottom_logo desk_hide"
+        src="./images/brainywin_logo.svg"
+        alt="BrainyWin"
+      >
+
+      <nav aria-label="Footer navigation">
+        <ul class="footer_menu">
+          <li>
+            <a href="./privacypolicy.html">
+              Privacy Policy
+            </a>
+          </li>
+
+          <li>
+            <a href="./terms.html">
+              Terms and Conditions
+            </a>
+          </li>
+
+          <li>
+            <a href="./contact.html">
+              Contact Us
+            </a>
+          </li>
+
+          <li>
+            <a href="./cancel.html">
+              Cancel Membership
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <span class="copyright">
+        © 2019 All rights reserved
       </span>
-</section>
-<footer class="violet_gr">
-<img class="left_img desk_hide mobile_hide" src="/images/iphone.png">
-  <div class="wrapper">
-    <a href="/rankings.html" class="Rankings_link">
-    <i class="fas fa-crown"></i> Rankings</a>
-    <img class="bottom_logo desk_hide" src="/images/brainywin_logo.svg">
-    <li class="footer_menu">
-      <ul><a href="/privacypolicy.html">Privacy Policy</a></ul>
-      <ul><a href="/terms.html">Terms and Conditions</a></ul>
-      <ul><a href="/contact.html">Contact Us</a></ul>
-      <ul><a href="/cancel.html">Cancel Membership</a></ul>
-    </li>
-    <span class="copyright"> 2019 All rights reserved</span>
-  </div>
-</footer>
 
+    </div>
+  </footer>
 
-
+  <script src="./js/login.js"></script>
 
 </body>
-
-  <script  type="text/javascript" src="./js/login.js" ></script>
 </html>
+```
