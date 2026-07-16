@@ -904,3 +904,98 @@ footer li {
     flex-basis: auto;
   }
 }
+/* Исправление мобильной версии страницы отмены подписки */
+@media (max-width: 600px) {
+  html,
+  body {
+    height: auto;
+    min-height: 100%;
+  }
+
+  body.main {
+    overflow-x: hidden;
+  }
+
+  .main_bg {
+    height: auto !important;
+    min-height: 0 !important;
+    padding-top: 67px;
+    padding-bottom: 30px;
+    overflow: visible;
+  }
+
+  .main > section > .wrapper.terms {
+    width: 100%;
+    max-width: 100%;
+    height: auto !important;
+    min-height: 0;
+    padding: 20px;
+  }
+
+  .wrapper.terms p {
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    padding-right: 0;
+  }
+
+  .contact-right-ltpwr {
+    width: 100%;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  #home-option1-form {
+    width: 100% !important;
+    max-width: 100%;
+    margin: 20px 0 0;
+  }
+
+  #home-option1-form .cancel-form-row {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 12px;
+    width: 100%;
+  }
+
+  #home-option1-form .cancel-form-field,
+  #home-option1-form .cancel-form-button {
+    width: 100%;
+  }
+
+  #home-option1-form input,
+  #home-option1-form button {
+    width: 100% !important;
+    max-width: 100%;
+    margin: 0 !important;
+    box-sizing: border-box;
+  }
+
+  footer {
+    position: relative !important;
+    bottom: auto !important;
+    height: auto !important;
+    margin-top: 0 !important;
+    overflow: visible;
+  }
+
+  footer > .wrapper {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  footer .footer_menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  footer .footer_menu ul {
+    width: 45%;
+    margin: 0;
+    text-align: center;
+  }
+}
