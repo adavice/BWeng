@@ -817,279 +817,45 @@ footer li {
 
 
 @media (max-width: 360px) {
-	#user_time, #leader_time, #user_best_time {
-	margin-bottom: 15px;
-}
-form > textarea {
-	height: 65px;
-}
-h2{margin-bottom: 10px;
-margin-top: 0px;}
-.profile_box span {
+  #user_time,
+  #leader_time,
+  #user_best_time {
+    margin-bottom: 15px;
+  }
+
+  form > textarea {
+    height: 65px;
+  }
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .profile_box span {
     font-size: 26px;
-}
-span.improve_small {
+  }
+
+  span.improve_small {
     font-size: 14px;
-}
-}
-	.cancel-form-row {
-  display: flex;
-  align-items: flex-end;
-  gap: 15px;
-  width: 100%;
-}
-
-.cancel-form-field {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  min-width: 0;
-}
-
-.cancel-form-field label {
-  display: block;
-  margin-bottom: 7px;
-}
-
-.cancel-form-field input {
-  box-sizing: border-box;
-  width: 100%;
-  height: 44px;
-  margin: 0;
-}
-
-.cancel-form-button {
-  flex: 0 0 auto;
-}
-
-.cancel-form-button button {
-  box-sizing: border-box;
-  height: 44px;
-  margin: 0;
-  white-space: nowrap;
-}
-
-/* На небольших экранах форма становится вертикальной */
-@media (max-width: 700px) {
-  .cancel-form-row {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .cancel-form-field,
-  .cancel-form-button {
-    width: 100%;
-  }
-
-  .cancel-form-button button {
-    width: 100%;
   }
 }
-.cancel-form-row {
-  display: flex;
-  align-items: flex-end;
-  gap: 15px;
-  width: 100%;
+
+/* Закрывает @media (max-width: 500px) */
 }
 
-.cancel-form-field {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  min-width: 0;
-}
+/* Форма отмены подписки */
 
-.cancel-form-field label {
-  display: block;
-  margin-bottom: 7px;
-}
-
-.cancel-form-field input {
-  box-sizing: border-box;
-  width: 100%;
-  height: 44px;
-  margin: 0;
-}
-
-.cancel-form-button {
-  flex: 0 0 auto;
-}
-
-.cancel-form-button button {
-  box-sizing: border-box;
-  height: 44px;
-  margin: 0;
-  white-space: nowrap;
-}
-
-/* На небольших экранах форма становится вертикальной */
-@media (max-width: 700px) {
-  .cancel-form-row {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .cancel-form-field,
-  .cancel-form-button {
-    width: 100%;
-  }
-
-  .cancel-form-button button {
-    width: 100%;
-  }
-}
-.cancel-form-row {
-  display: flex;
-  align-items: flex-end;
-  gap: 15px;
-  width: 100%;
-}
-
-.cancel-form-field {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  min-width: 0;
-}
-
-.cancel-form-field label {
-  display: block;
-  margin-bottom: 7px;
-}
-
-.cancel-form-field input {
-  box-sizing: border-box;
-  width: 100%;
-  height: 44px;
-  margin: 0;
-}
-
-.cancel-form-button {
-  flex: 0 0 auto;
-}
-
-.cancel-form-button button {
-  box-sizing: border-box;
-  height: 44px;
-  margin: 0;
-  white-space: nowrap;
-}
-
-/* На небольших экранах форма становится вертикальной */
-@media (max-width: 700px) {
-  .cancel-form-row {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .cancel-form-field,
-  .cancel-form-button {
-    width: 100%;
-  }
-
-  .cancel-form-button button {
-    width: 100%;
-  }
-}
-.cancel-form-row {
-  display: flex;
-  align-items: flex-end;
-  gap: 15px;
-  width: 100%;
-}
-
-.cancel-form-field {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  min-width: 0;
-}
-
-.cancel-form-field label {
-  display: block;
-  margin-bottom: 7px;
-}
-
-.cancel-form-field input {
-  box-sizing: border-box;
-  width: 100%;
-  height: 44px;
-  margin: 0;
-}
-
-.cancel-form-button {
-  flex: 0 0 auto;
-}
-
-.cancel-form-button button {
-  box-sizing: border-box;
-  height: 44px;
-  margin: 0;
-  white-space: nowrap;
-}
-
-/* На небольших экранах форма становится вертикальной */
-@media (max-width: 700px) {
-  .cancel-form-row {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .cancel-form-field,
-  .cancel-form-button {
-    width: 100%;
-  }
-
-  .cancel-form-button button {
-    width: 100%;
-  }
-}
-.cancel-form-row{
-    display:flex;
-    align-items:flex-end;
-    justify-content:space-between;
-    gap:15px;
-}
-
-.cancel-form-field{
-    flex:1;
-}
-
-.cancel-form-field input{
-    width:100%;
-}
-
-.cancel-form-button{
-    flex:0 0 auto;
-}
-
-.cancel-form-button .button{
-    width:auto;
-    min-width:220px;
-    height:44px;
-    margin:0;
-}
-
-@media (max-width:700px){
-    .cancel-form-row{
-        flex-direction:column;
-    }
-
-    .cancel-form-button,
-    .cancel-form-button .button{
-        width:100%;
-    }
-}
-	#home-option1-form {
-  width: 100%;
+#home-option1-form {
+  width: 100% !important;
   max-width: 720px;
   margin: 25px auto 0;
 }
 
 #home-option1-form .cancel-form-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
   align-items: flex-end;
   gap: 12px;
   width: 100%;
@@ -1103,39 +869,38 @@ span.improve_small {
 #home-option1-form .cancel-form-field label {
   display: block;
   margin-bottom: 6px;
-  font-size: 11px;
 }
 
 #home-option1-form .cancel-form-field input {
   display: block;
-  width: 100%;
+  width: 100% !important;
+  min-width: 0;
   height: 44px;
-  margin: 0;
-  padding: 8px 10px;
+  margin: 0 !important;
 }
 
 #home-option1-form .cancel-form-button {
-  flex: 0 0 auto;
+  flex: 0 0 210px;
 }
 
 #home-option1-form .cancel-form-button button {
-  width: 210px;
+  width: 210px !important;
   height: 44px;
-  margin: 0;
+  margin: 0 !important;
   padding: 5px 10px;
-  font-size: 14px;
+  font-size: 13px;
   white-space: nowrap;
 }
 
 @media (max-width: 600px) {
   #home-option1-form .cancel-form-row {
-    flex-direction: column;
+    flex-direction: column !important;
     align-items: stretch;
   }
 
   #home-option1-form .cancel-form-button,
   #home-option1-form .cancel-form-button button {
-    width: 100%;
+    width: 100% !important;
+    flex-basis: auto;
   }
 }
-	
